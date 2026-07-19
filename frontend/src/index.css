@@ -1,0 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Baloo+2:wght@500;600;700;800&family=Inter:wght@400;500;600;700&display=swap");
+
+* { box-sizing: border-box; }
+html, body, #root { height: 100%; margin: 0; }
+body { background: #efeae1; }
+
+.disp { font-family: "Baloo 2", sans-serif; }
+.body { font-family: "Inter", sans-serif; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+button:focus-visible, .tappable:focus-visible { outline: 3px solid var(--accent); outline-offset: 2px; }
+input, select, textarea { font-family: inherit; }
+@media (prefers-reduced-motion: reduce) { * { transition: none !important; animation: none !important; } }
